@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rai</title>
+</head>
+<body>
+    <div class="app">
+        <main>
+            <h1>Random Anime Images</h1>
+            <img  src="github.png" id="anime-img" alt="anime-image">
+            <section id="filter-preview">
+                <div class="filter" id="bw-filter">
+                    <canvas id="bw-filter-canvas"></canvas>
+                </div>
+                <div class="filter" id="blur-filter">
+                    <canvas id="blur-filter-canvas"></canvas>
+                </div>
+                <div class="filter" id="invert-filter">
+                    <canvas id="invert-filter-canvas"></canvas>
+                </div>
+            </section>
+            <button id="new-img-btn">New image</button>
+            <button style="pointer-events: none;" id="download-btn">Download</button>
+        </main>
+        <footer>
+            <nav class="nav">
+                <a target="_blank" id="twitter-link" 
+                href="https://twitter.com/iFeelBlue13">
+                    <img src="twitter.png" alt="twitter">
+                </a>
+    
+                <a target="_blank" id="github-link" 
+                href="https://github.com/ifeelblue99">
+                    <img src="github.png" alt="github">
+                </a>
+                
+                <a target="_blank" id="github-link" 
+                href="https://github.com/ifeelblue99">
+                    <img src="in.png" alt="linkedin">
+                </a>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
